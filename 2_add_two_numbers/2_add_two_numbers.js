@@ -52,13 +52,3 @@ function asArray(listNode) {
 
     return arr
 }
-
-arr1 = [9]
-arr2 = [9]
-
-l1 = asListNode(arr1)
-l2 = asListNode(arr2)
-
-console.log(asArray(l1))
-console.log(asArray(l2))
-console.log(asArray(addTwoNumbers(l1, l2)))

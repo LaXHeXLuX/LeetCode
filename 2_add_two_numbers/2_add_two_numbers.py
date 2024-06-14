@@ -45,13 +45,3 @@ def asArray(listNode):
         listNode = listNode.next
 
     return arr
-
-arr1 = [2, 4, 3]
-arr2 = [5, 6, 4]
-
-l1 = asListNode(arr1)
-l2 = asListNode(arr2)
-
-print(asArray(l1))
-print(asArray(l2))
-print(asArray(Solution.addTwoNumbers(Solution, l1, l2)))

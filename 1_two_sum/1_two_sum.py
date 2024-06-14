@@ -15,7 +15,3 @@ class Solution(object):
                 return [complement, i]
             
             complements[target - nums[i]] = i
-
-
-
-print(Solution.twoSum(Solution, [2,7,11,15], 9))
